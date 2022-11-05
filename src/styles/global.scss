@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./typography.scss";
+
+@layer base {
+  input:not([type="radio"]):not([type="checkbox"]),
+  textarea {
+    @apply w-full h-10 border border-brand-gray-500 focus:outline-none focus:border-brand-green focus:ring-1 focus:ring-brand-green rounded px-4;
+  }
+}
+
+.sidebar-nav a,
+.sidebar-nav button {
+  @apply before:absolute before:h-full before:w-1 before:left-0 before:rounded-r;
+}

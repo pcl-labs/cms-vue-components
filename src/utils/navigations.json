@@ -1,0 +1,64 @@
+{
+  "sidebar": [
+    {
+      "name": "Home",
+      "href": "/",
+      "icon": "home"
+    },
+    {
+      "name": "Feed",
+      "href": "/feed",
+      "icon": "feed",
+      "children": [
+        {
+          "name": "Add a Post",
+          "href": "/add-post"
+        },
+        {
+          "name": "Post Edit Page",
+          "href": "/edit-post"
+        }
+      ]
+    },
+    {
+      "name": "Products",
+      "href": "/products",
+      "icon": "products",
+      "children": [
+        {
+          "name": "Add a Product",
+          "href": "/add-product"
+        },
+        {
+          "name": "Product Edit Page",
+          "href": "/edit-product"
+        }
+      ]
+    },
+    {
+      "section": "Manage team",
+      "links": [
+        {
+          "name": "Team Settings",
+          "href": "/team-settings",
+          "icon": "team-settings"
+        },
+        {
+          "name": "Create New Team",
+          "href": "/new-team",
+          "icon": "add"
+        }
+      ]
+    },
+    {
+      "section": "Manage account",
+      "links": [
+        {
+          "name": "Profile",
+          "href": "profile",
+          "icon": "user"
+        }
+      ]
+    }
+  ]
+}
